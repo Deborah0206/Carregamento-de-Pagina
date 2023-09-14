@@ -1,0 +1,66 @@
+  .carregamento{
+    height: 60px;
+    display:flex;
+    align-items: flex;
+    gap: 5px;
+  }
+  .bar{
+    height: 60px;
+    width: 15px;
+    animation-duration: 0.60s;
+    animation-name:changeHeight;
+    animation-iteration-count: infinite;
+    animation-direction:alternate; 
+    }
+
+    .red {
+        background-color: #E50000;
+        box-shadow: 3px 3px 5px #fb2c03;
+        animation-delay: 0.10s;
+      }
+      
+      .orange {
+        background-color: #FF8D00;
+        box-shadow: 3px 3px 5px #f5c60a;
+        animation-delay: 0.15s;
+      }
+      
+      .yellow {
+        background-color: #FFEE00;
+        box-shadow: 3px 3px 5px #a0de02;
+        animation-delay: 0.20s;
+      }
+      
+      .green {
+        background-color: #008121;
+        box-shadow: 3px 3px 5px #08b472;
+        animation-delay: 0.25s;
+      }
+      
+      .blue {
+        background-color: #004CFF;
+        box-shadow: 3px 3px 5px #5a06e0;
+        animation-delay: 0.30s;
+      }
+      
+      .violet {
+        background-color: #760188;
+        box-shadow: 3px 3px 5px #b60da5;
+        animation-delay: 0.35s;
+      }
+
+      .pink {
+        background-color: #fc04b6;
+        box-shadow: 3px 3px 5px #f32541;
+        animation-delay: 0.40s;
+      }
+
+      @keyframes changeHeight {
+        from {
+          height: 10px;
+        }
+      
+        to {
+          height: 80px;
+        }
+      }
